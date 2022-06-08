@@ -1,0 +1,45 @@
+nav {
+    display: flex;
+    background-color: azure;
+}
+
+nav a {
+    color: lightslategray;
+    padding: 14px 20px;
+    text-align: right;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.header {
+    background-color: rgb(52, 51, 51);
+}
+
+.banner-image {
+    background-image: url("../../assets/images/banner.png");
+    min-height: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.banner-text {
+    text-align: right;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: brown;
+}*/
+
+.section-title {
+    color: blue;
+}
+
+.links {
+    color:darkgray;
+}
